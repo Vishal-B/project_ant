@@ -1,0 +1,59 @@
+2017-04-06 09:23:02,243 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\ant-1.7.0.jar] to extensions classpath
+2017-04-06 09:23:02,246 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\ant-launcher-1.7.0.jar] to extensions classpath
+2017-04-06 09:23:02,247 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\bsh-2.0b4.jar] to extensions classpath
+2017-04-06 09:23:02,247 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\bson-3.0.4.jar] to extensions classpath
+2017-04-06 09:23:02,248 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\commons-codec-1.10.jar] to extensions classpath
+2017-04-06 09:23:02,248 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\commons-collections4-4.1.jar] to extensions classpath
+2017-04-06 09:23:02,249 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\commons-logging-1.2.jar] to extensions classpath
+2017-04-06 09:23:02,249 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\ExcelUtils.jar] to extensions classpath
+2017-04-06 09:23:02,249 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\extentreports-2.41.2.jar] to extensions classpath
+2017-04-06 09:23:02,250 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\freemarker-2.3.23.jar] to extensions classpath
+2017-04-06 09:23:02,251 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\GL-SoapUIExtension.jar] to extensions classpath
+2017-04-06 09:23:02,251 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\hamcrest-core-1.1.jar] to extensions classpath
+2017-04-06 09:23:02,252 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\jcommander-1.48.jar] to extensions classpath
+2017-04-06 09:23:02,252 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\jsoup-1.8.3.jar] to extensions classpath
+2017-04-06 09:23:02,252 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\junit-4.10.jar] to extensions classpath
+2017-04-06 09:23:02,253 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\junit-4.12.jar] to extensions classpath
+2017-04-06 09:23:02,253 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\log4j-1.2.17.jar] to extensions classpath
+2017-04-06 09:23:02,254 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\mongodb-driver-3.0.4.jar] to extensions classpath
+2017-04-06 09:23:02,254 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\mongodb-driver-core-3.0.4.jar] to extensions classpath
+2017-04-06 09:23:02,255 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\mysql-connector-java-3.0.17-ga-bin.jar] to extensions classpath
+2017-04-06 09:23:02,255 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\mysql-connector-java-5.0.8-bin.jar] to extensions classpath
+2017-04-06 09:23:02,256 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\poi-3.16-beta1.jar] to extensions classpath
+2017-04-06 09:23:02,256 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\poi-examples-3.16-beta1.jar] to extensions classpath
+2017-04-06 09:23:02,257 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\poi-excelant-3.16-beta1.jar] to extensions classpath
+2017-04-06 09:23:02,257 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\poi-ooxml-3.16-beta1.jar] to extensions classpath
+2017-04-06 09:23:02,258 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\poi-ooxml-schemas-3.16-beta1.jar] to extensions classpath
+2017-04-06 09:23:02,258 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\poi-scratchpad-3.16-beta1.jar] to extensions classpath
+2017-04-06 09:23:02,258 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\snakeyaml-1.15.jar] to extensions classpath
+2017-04-06 09:23:02,259 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\sqlite-jdbc-3.8.11.1.jar] to extensions classpath
+2017-04-06 09:23:02,259 INFO  [SoapUI] Adding [C:\Users\vishal.bhopal\.jenkins\workspace\TEST_v\bin\ext\testng-6.9.9.jar] to extensions classpath
+2017-04-06 09:23:03,072 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\vishal.bhopal\soapui-settings.xml]
+2017-04-06 09:23:06,395 INFO  [PluginManager] 0 plugins loaded in 9 ms
+2017-04-06 09:23:06,395 INFO  [DefaultSoapUICore] All plugins loaded
+2017-04-06 09:23:13,815 INFO  [WsdlProject] Loaded project from [file:/C:/Users/vishal.bhopal/.jenkins/workspace/TEST_v/Pearson-vishal-soapui-project.xml]
+2017-04-06 09:23:13,842 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Pearson API Automation]
+2017-04-06 09:23:13,844 INFO  [SoapUITestCaseRunner] Running Project [Pearson API Automation], runType = SEQUENTIAL
+2017-04-06 09:23:13,895 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [IAM_TokenValidation_validId]
+2017-04-06 09:23:13,903 INFO  [SoapUITestCaseRunner] running step [User_login - Request 1]
+2017-04-06 09:23:37,445 INFO  [SoapUITestCaseRunner] running step [TokenTransfer]
+2017-04-06 09:23:37,570 INFO  [SoapUITestCaseRunner] running step [Token_validation_valid Id]
+2017-04-06 09:23:38,478 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2017-04-06 09:23:38,479 INFO  [SoapUITestCaseRunner] Assertion [true] has status VALID
+2017-04-06 09:23:38,482 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [IAM_TokenValidation_validId], time taken: 24026ms, status: FINISHED
+2017-04-06 09:23:38,483 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [IAM_TokenValidation_invalidId]
+2017-04-06 09:23:38,483 INFO  [SoapUITestCaseRunner] running step [Token_validation_invalidId]
+2017-04-06 09:23:40,002 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2017-04-06 09:23:40,003 INFO  [SoapUITestCaseRunner] Assertion [true] has status VALID
+2017-04-06 09:23:40,003 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [IAM_TokenValidation_invalidId], time taken: 1509ms, status: FINISHED
+2017-04-06 09:23:40,003 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [IAM_TokenValidation_nullId]
+2017-04-06 09:23:40,004 INFO  [SoapUITestCaseRunner] running step [Token_validation - nullId]
+2017-04-06 09:23:40,331 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2017-04-06 09:23:40,331 INFO  [SoapUITestCaseRunner] Assertion [true] has status VALID
+2017-04-06 09:23:40,332 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [IAM_TokenValidation_nullId], time taken: 322ms, status: FINISHED
+2017-04-06 09:23:40,332 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [IAM_TokenValidation_Idfieldmissing]
+2017-04-06 09:23:40,333 INFO  [SoapUITestCaseRunner] running step [Token_validation - Token_validation]
+2017-04-06 09:23:40,659 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2017-04-06 09:23:40,659 INFO  [SoapUITestCaseRunner] Assertion [true] has status VALID
+2017-04-06 09:23:40,659 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [IAM_TokenValidation_Idfieldmissing], time taken: 320ms, status: FINISHED
+2017-04-06 09:23:40,660 INFO  [SoapUITestCaseRunner] Project [Pearson API Automation] finished with status [FINISHED] in 26801ms
