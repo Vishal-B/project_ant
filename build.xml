@@ -1,26 +1,26 @@
 <project basedir="." name="soapAutomation" default="testreport">
 
-<import file="%WORKSPACE%\junitpdfreport_essentials_1_0\build-junitpdfreport.xml"/>
+<import file="junitpdfreport_essentials_1_0\build-junitpdfreport.xml"/>
 
 
 <target name="SoapUI">
-   <exec dir="." executable="%WORKSPACE%\bin\testrunner.bat">
-      <arg line="-r -j -f '%WORKSPACE%' '%WORKSPACE%\Pearson-vishal-soapui-project.xml'" /> 
+   <exec dir="." executable="bin\testrunner.bat">
+      <arg line="-r -j -f '' 'Pearson-vishal-soapui-project.xml'" /> 
    </exec>
 
 </target>
 
 <target name="testreport" depends="SoapUI">
-    <junitreport todir="%WORKSPACE%">
-      <fileset dir="%WORKSPACE%">
+    <junitreport todir="">
+      <fileset dir="">
         <include name="TEST-*.xml" /> 
       </fileset>
    
-      <report todir="%WORKSPACE%\HTML" /> 
+      <report todir="HTML" /> 
     </junitreport>
 
     <junitpdfreport todir="." styledir="default"> 
-      <fileset dir="%WORKSPACE%"> 
+      <fileset dir=""> 
         <include name="TEST-*.xml"/> 
       </fileset> 
     </junitpdfreport>
@@ -29,7 +29,7 @@
     <format property="timestamp" pattern="yyyyMMddHHmmss" /> 
 </tstamp>
 
-<move file="%WORKSPACE%\HTML\index.html" tofile="%WORKSPACE%\HTML\soapuiResults-${timestamp}.html" /> 
+<move file="HTML\index.html" tofile="HTML\soapuiResults-${timestamp}.html" /> 
   
 </target>
   
