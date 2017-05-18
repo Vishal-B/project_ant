@@ -5,22 +5,22 @@
 
 <target name="SoapUI">
    <exec dir="." executable="bin\testrunner.bat">
-      <arg line="-r -j -f '' 'Pearson-vishal-soapui-project.xml'" /> 
+      <arg line="-r -j -f '%WORKSPACE%' '%WORKSPACE%\Pearson-vishal-soapui-project.xml'" /> 
    </exec>
 
 </target>
 
 <target name="testreport" depends="SoapUI">
-    <junitreport todir="">
-      <fileset dir="">
+    <junitreport todir="%WORKSPACE%">
+      <fileset dir="%WORKSPACE%">
         <include name="TEST-*.xml" /> 
       </fileset>
    
-      <report todir="HTML" /> 
+      <report todir="%WORKSPACE%\HTML" /> 
     </junitreport>
 
     <junitpdfreport todir="." styledir="default"> 
-      <fileset dir=""> 
+      <fileset dir="%WORKSPACE%"> 
         <include name="TEST-*.xml"/> 
       </fileset> 
     </junitpdfreport>
@@ -29,7 +29,7 @@
     <format property="timestamp" pattern="yyyyMMddHHmmss" /> 
 </tstamp>
 
-<move file="HTML\index.html" tofile="HTML\soapuiResults-${timestamp}.html" /> 
+<move file="%WORKSPACE%\HTML\index.html" tofile="%WORKSPACE%\HTML\soapuiResults-${timestamp}.html" /> 
   
 </target>
   
