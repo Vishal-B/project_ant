@@ -1,0 +1,36 @@
+<project basedir="." name="soapAutomation" default="testreport">
+
+<import file="%WORKSPACE%\junitpdfreport_essentials_1_0\build-junitpdfreport.xml"/>
+
+
+<target name="SoapUI">
+   <exec dir="." executable="%WORKSPACE%\bin\testrunner.bat">
+      <arg line="-r -j -f '%WORKSPACE%' '%WORKSPACE%\Pearson-vishal-soapui-project.xml'" /> 
+   </exec>
+
+</target>
+
+<target name="testreport" depends="SoapUI">
+    <junitreport todir="%WORKSPACE%">
+      <fileset dir="%WORKSPACE%">
+        <include name="TEST-*.xml" /> 
+      </fileset>
+   
+      <report todir="%WORKSPACE%\HTML" /> 
+    </junitreport>
+
+    <junitpdfreport todir="." styledir="default"> 
+      <fileset dir="%WORKSPACE%"> 
+        <include name="TEST-*.xml"/> 
+      </fileset> 
+    </junitpdfreport>
+
+<tstamp>
+    <format property="timestamp" pattern="yyyyMMddHHmmss" /> 
+</tstamp>
+
+<move file="%WORKSPACE%\HTML\index.html" tofile="%WORKSPACE%\HTML\soapuiResults-${timestamp}.html" /> 
+  
+</target>
+  
+</project>
